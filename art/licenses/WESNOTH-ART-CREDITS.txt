@@ -1,0 +1,126 @@
+Battle for Wesnoth - "Artwork and Graphics" credits
+Extracted unchanged (names and comments only) from data/core/about.cfg,
+https://github.com/wesnoth/wesnoth/blob/master/data/core/about.cfg (GPL-2.0-or-later).
+(about.cfg as retrieved 2026-10-16: git blob 558a23e5db3bf5522d5305c6f2eb97b7f6f4314e.)
+
+This list covers the core "Artwork and Graphics" credits only. 120 of the 338 Wesnoth images used here are
+campaign portraits from 15 mainline campaigns; Wesnoth credits campaign-specific artists in each campaign's own
+[about] blocks (data/campaigns/<campaign>/_main.cfg), which were not copied here, so some portrait artists may
+be missing from the names below. See each campaign's credits in Wesnoth (in-game Credits screen, or the files above):
+Descent_Into_Darkness (7), Eastern_Invasion (7), Heir_To_The_Throne (23), Legend_of_Wesmere (8), Liberty (6),
+Northern_Rebirth (10), Sceptre_of_Fire (10), Secrets_of_the_Ancients (6), Son_Of_The_Black_Eye (10),
+The_Deceivers_Gambit (11), The_Hammer_of_Thursagan (6), The_Rise_Of_Wesnoth (9), The_South_Guard (5),
+Two_Brothers (1), Under_the_Burning_Suns (1).
+
+- Emilien Rotival (LordBob) -- portrait director - focus on loyalists, trolls, monsters
+- Francisco Muñoz (fmunoz) -- founding artist and former lead artist, worked consistently on all aspects till around v0.7-0.9.
+- Hogne Håskjold (frame/freim) -- terrain art director, made much of the current terrains (esp. mountains)
+- J.W. Bjerk (Eleazar) -- terrain art director (esp. Chasm, Cave, Water), sprite animations, various visual tweaks
+- James Woo (Pickslide) -- portraits (major focus on orcs and campaigns, especially UtBS, TEI, TSoF)
+- Kathrin Polikeit (Kitty) -- portrait director - focus on mages/necromancers, elvish, naga, merfolk, and troll unit trees
+- Lari Nieminen (zookeeper) -- sprite animation, various visual tweaks, titlescreen and campaign maps (v1.11+), water animations (v1.13+)
+- Neoriceisgood -- sprite creator and animator (major focus on drakes, dwarves, saurians)
+- Pekka Aikio (pekka) -- tiles, esp. castles, and attack icons
+- Phil Barber (thespaceinvader) -- Dwarf and Saurian portraits, most of the drake animations, and a large amount on other stuff, esp. the dwarves.
+- Richard Kettering (Jetrel) -- art director/slave, major focus on sprites, portraits, buildings, and icons
+- Timo Honkasalo (Sgt. Groovy) -- New high-res logo for the game
+- Alex Jarocha-Ernst (Jormungandr) -- portraits
+- Christophe Anjard (Christophe33) -- made many of the old (c. v0.6) terrains, and some sprites for the dwarves
+- Erkki Lonkainen (Eternal) -- created and animated many replacement sprites (esp. ogre, orc assassin & spear units, and cockatrice)
+- Jason Lutes -- portraits (major focus on humans, some campaign portraits)
+- Johann de Venecia (Johann) -- drew the new campaign story art for HttT
+- Leonhard -- made several of the new attack icons
+- Marcus Rosén (sleepwalker) -- Animations (esp. Saurians, Dwarves, Horseman), dunefolk sprites, and portraits (Mermaid Initiate & Dune Herbalist)
+- Mark Goodenough (Ranger M) -- sprite animator
+- Maximiliano Buis (Redeth) -- Made nearly all of the idle animations, and some death animations (as of 1.3.1)
+- Michael Gil de Muro (grp21) -- portraits (for the campaign ‘The Rise of Wesnoth’)
+- MJ (czyzby) -- adjustments of the saurian sprites; animations for saurian spearthrower, javelineer, seer, and prophet
+- Moritz Göbelbecker (mog) -- tiles, esp. swamp, encampment, ice, and work with lava/chasm
+- Niall Burton (Leonard03) -- Minimalistic logo render
+- Peter Geinitz (Shadow/Wayfarer) -- sprite creator and animator
+- Robert Bolin (Zebulon) -- tiles, sprite editing and animations
+- Andrew James Patterson (Kamahawk) -- sprites
+- antwerpz -- sprite creator/animator for old saurian units
+- Diego Brea (Cobretti) -- sprite creator/animator
+- EEL (EELuminatus) -- sprite animator, provided death animations for the woses, some of the orcs, and an attack animation for the revenant
+- Eli Dupree (Elvish Pillager) -- sprites and animations
+- Eric Holdos (Rev. V!)
+- Gareth Miller (Gafgarion) -- made some early sprites/tiles
+- Gerald Clears (Smok'em Jags) -- sprite animator
+- James Barton (Sangel) -- sprites
+- Jami -- rogue death and red mage idle animations
+- Jerzy Brzozowski (Mefisto) -- Various sprites and animations, tropical forests.
+- Jesse Holland (Kestenvarn) -- map illustrator of old titlescreen and campaign maps (v1.1 - v1.10)
+- Johanna Manninen (lohari) -- edited tiles, ported freeciv tiles used in very early versions of wesnoth
+- John Muccigrosso (Eponymous Archon) -- made some early sprites, such as the human bowmen
+- Kuno Raffin (lurker) -- Various terrain artwork
+- Michael Mielewczik (Mille) -- sprite animator
+- Mikko Kraft (Deserter) -- sprite animator
+- Musketaquid -- animated windmill / stone path
+- Slainte -- made sprites for c. v0.6 mages, also made many of the old attack icons
+- Simon Forsyth (Alarantalara) -- cave terrain
+- Stephen Metcalf (Neoskel) -- major help with shadow standardization (over half the units), made some missing zombie variants
+- Stephen Stone (Disto) -- sprite animator
+- Svetac -- made many of the old attack icons
+- Tristan Millner (tatmf) -- made old portrait of dwarven fighter
+- Zhukov -- sprite animator
+- Aaron Redfern (A-Red) -- Sprites and animations
+- Adrian Sheehy (Major) -- various sprites animations
+- Alexander Brown (Cloud) -- Sprite animations
+- Anton Ecker (Kaldred) -- burnt villages
+- battlestar -- - some scenery graphics including burnt tent.
+- Ben Wenzel (artisticdude) -- Sprite animations
+- Blarumyrran -- New storm trident, staff and ankh item pictures, various attack icons, river ford tiles, drake and human city villages
+- Bora Orcal (bera) -- Goblin portrait sketches
+- Cernunnos -- merfolk villages
+- Charles Dang (vultraz) -- Icons for new editor and updated terrain icons
+- Chris Wilson (Valkier) -- portraits
+- Christian Sirviö (Girgistian) -- portraits (sketches), and some attack animations for the orcs
+- Clinton Bell -- various animations
+- Dan Gerhards (beetlenaut) -- various sprites and animations
+- Daniel Borgmann (dborg) -- semi-transparent map grid
+- Daniel Foerster (pydsigner/pyndragon) -- Icon overlays for the About dialog button
+- Kwandulin -- Standing animations (Skeleton Archer, Bone Shooter, Orcish Archer, Dwarvish Fighter, Ulfserker, Stalwart, Runesmith), minor fixes
+- doofus-01 -- orcish fort and villages, desert mountains, mine walls, sea forts, portraits for walking corpse and soulless
+- Elena Astanina (ayona) -- log-cabin villages
+- Eric Butler (Erk) -- desert and merfolk villages
+- Evan Crook (Flametrooper) -- sprite animator (TC conversion)
+- Garrett Wessner (Stilgar) -- gold coin pile
+- Gideon Chia (Deonjo) -- new ‘units’ icon for general status bar
+- Guangcong Luo (Zarel) -- Multiplayer status icons for 1.7.x
+- Highhole -- revised storm trident
+- Homunculus -- dead great tree terrain
+- Iris Morelle (Irydacea/shadowm) -- Minor item/unit edits; animated lit brazier; ported gryphon rider animation to generic gryphon; Ancient Lich for 1.12.x
+- Irrevenant -- Skeleton archer death and recruit animations, new ankh touch ups, new dark adept touch ups, elvish marshal standing animation
+- Irwin Ismail (Swordy) -- original projectile/attack icon for chakram
+- Jason Frailey (Valdroni) -- scorpion portrait
+- Jimmy Olsson (Azlan) -- made old icons for windows version
+- Joakim Persson (JAP) -- Knalgan flag set
+- John Mercer (Stern) -- Giant Rat graphics
+- John-Robert Funck (XJaPaN) -- sprite animator
+- Jonatan Alamà (tin) -- made red logo used until before v1.0
+- Justin Nichols (JustinOperable) -- Portrait artwork
+- Kim Holm (DUHH) -- Portrait artwork
+- Lukasz Wawrowski (inferno8) -- Drake attack icons with fmunoz and map backgrounds for Isar’s Cross
+- Lordlewis -- mace item sprite
+- Luke Bunday (Amorphous) -- New (1.17) swordsman attack animation
+- Mattias Westlund (West) -- new color cursors
+- Nicholas Kerpan (Thrawn) -- human thief portrait
+- Pixelmind -- various animations
+- Randall Walls (slightcrazed) -- sprite animator
+- rhyging5 -- various animations
+- RusHHouR -- New signpost (1.4.1)
+- Samuel Wilson (megane) -- random dice icon fix after 1.4.0
+- Santiago Iborra (Quellion) -- Portrait artwork
+- Simeon Dear (Trilby) -- Sprite animations
+- Zoomo -- Sprite animations
+- Zaggy1024 -- Wolf rider death animation
+- Eisfrei -- Elvish shaman idle animations
+- Happy Wose -- Wose idle frames and Elder wose death animation
+- Wolfy -- Female arch mage idle animation
+- mystic x the unknown -- Mage death animation
+- Sonny T Yamada (SkyOne) -- shadow standardization of many campaign units
+- Vincent Langner (Vyncyn) -- Walking Corpse and Soulless wolf variations, young roc base and attack sprite
+- ZygoUgo -- Giant Rat portrait
+- ghype -- sprite animation and dunefolk base frames
+- Tony Moseley (Helmet) -- initial dragonfly sprites

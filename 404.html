@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="스무 살 성년식에서 능력치로 정해지는 길, 아기부터 죽을 때까지 — d20 주사위와 능력치 확률로 한 사람의 일대기를 한 권의 책으로 적어 가는 웹 TRPG." />
+    <meta name="theme-color" content="#cbc4b3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#2a241d" media="(prefers-color-scheme: dark)" />
+    <title>운명의 주사위</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,3 90.7,26.5 90.7,73.5 50,97 9.3,73.5 9.3,26.5' fill='%235e1f1a' stroke='%23b8892d' stroke-width='5'/%3E%3Cpolygon points='50,23 73.4,63.5 26.6,63.5' fill='%237c2a22' stroke='%23b8892d' stroke-width='3'/%3E%3Ctext x='50' y='58' text-anchor='middle' font-size='22' font-weight='800' fill='%23f6dd94' font-family='Georgia'%3E20%3C/text%3E%3C/svg%3E"
+    />
+    <style>
+      /* 스크립트·CSS 가 오기 전에도 종이 바깥 색 (흰 화면 깜빡임 방지) */
+      html { background: #bfb6a3; }
+      html[data-theme='dark'] { background: #0e0c09; }
+    </style>
+    <script>
+      // 첫 그리기 전에 테마(낮/촛불)·연출·글자 크기 · (v0.6 읽기) 이야기 글꼴 · 줄 간격 설정을 적용한다 (깜빡임 방지). 실패해도 낮 테마로 동작.
+      // 글자 크기 배율 표는 src/store/settings.ts 의 FONT_SCALES 와 같다 (9단계, 가운데 4 = 보통).
+      // 판(fontV)이 없는 저장본은 예전 6단계 표의 인덱스 — 가장 가까운 새 단계로 옮긴다 (settings.ts migrateFontStep 과 같다).
+      (function () {
+        var root = document.documentElement;
+        try {
+          var s = {};
+          try {
+            s = JSON.parse(localStorage.getItem('trpg.settings.v1') || '{}') || {};
+          } catch (e) {}
+          var t = s.theme;
+          var dark = t === 'dark' || (t !== 'light' && !!window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          root.setAttribute('data-theme', dark ? 'dark' : 'light');
+          if (s.reduceMotion === true) root.setAttribute('data-motion', 'reduce');
+          var scales = [0.72, 0.78, 0.85, 0.92, 1, 1.1, 1.2, 1.32, 1.45];
+          var oldScales = [0.9, 1, 1.1, 1.2, 1.32, 1.45];
+          var step = 4;
+          if (typeof s.fontStep === 'number' && isFinite(s.fontStep)) {
+            step = Math.round(s.fontStep);
+            if (s.fontV !== 2) {
+              var want = oldScales[Math.max(0, Math.min(oldScales.length - 1, step))];
+              step = 4;
+              for (var j = 0; j < scales.length; j++) if (Math.abs(scales[j] - want) < Math.abs(scales[step] - want)) step = j;
+            }
+            step = Math.max(0, Math.min(scales.length - 1, step));
+          }
+          root.style.setProperty('--font-scale', String(scales[step]));
+          root.setAttribute('data-font-step', String(step));
+          if (s.readFont === 'sans') root.setAttribute('data-read-font', 'sans');
+          if (s.leading === 'wide') root.setAttribute('data-leading', 'wide');
+        } catch (e) {
+          root.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-CSyYy2Iq.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-ewSipLLM.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>이 게임은 자바스크립트가 필요합니다.</noscript>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+Licence (legal code): https://creativecommons.org/licenses/by-sa/3.0/legalcode
+Summary:              https://creativecommons.org/licenses/by-sa/3.0/
+
+The following images in public/art are adapted from works by Justin Nichol (and the Flare Project, with Clint Bellanger)
+published on OpenGameArt.org and are used under CC BY-SA 3.0 (the author also offers GPL 2.0 / GPL 3.0;
+the "The Free Monsters" archive additionally carries a CC BY-SA 4.0 licence file):
+
+  - "The Free Monsters" by Justin Nichol — https://opengameart.org/content/the-free-monsters
+  - "Assorted Creatures" by Justin Nichol — https://opengameart.org/content/assorted-creatures
+  - "Flare Portrait Pack Number Two/Three/Four/Five" by Justin Nichol & the Flare Project —
+    https://opengameart.org/content/flare-portrait-pack-number-two (…-three, …-four, …-five)
+
+Changes: cropped, background made transparent (cut-out), resized and re-encoded as WebP — listed per file in
+ASSET-LICENSES.md. The adapted files are shared under the same licence, CC BY-SA 3.0. No warranties are given.
